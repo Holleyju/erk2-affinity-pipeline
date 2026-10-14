@@ -1,32 +1,43 @@
-"""Clean BindingDB affinity values for analysis"""
-
 import numpy as np
 import pandas as pd
 
+# Helper to clean affinity values (strings into numbers)
 def clean_affinity(value):
-    """Convert affinity values to numbers and keep any inequality signs.
-    """
+    # Check if it's already empty
     if pd.isna(value):
         return np.nan, None
-
-    text = str(value).strip()
-    if not text:
+    
+    # Convert to string and remove whitespace
+    value = str(value).strip()
+    
+    # If it's empty after stripping, return NaN
+    if value == "":
         return np.nan, None
-
-    qualifier = "="
-    if text.startswith((">", "<")):
-        qualifier = text[0]
-        text = text[1:].strip()
-
-    # Assumes "," is a thousands separator (BindingDB uses "." for decimals).
-    text = text.replace (",","")
-
+    
+    # Default sign is equals
+    sign = "="
+    
+    # Check if there is a < or > at the start
+    if value.startswith(">"):
+        sign = ">"
+        value = value[1:] # remove the sign
+    elif value.startswith("<"):
+        sign = "<"
+        value = value[1:] # remove the sign
+        
+    value = value.strip()
+    
+    # Get rid of commas (thousands separators)
+    # Note: BindingDB uses "." for decimals
+    value = value.replace(",", "")
+    
     try:
-        number = float(text)
+        num = float(value)
     except ValueError:
         return np.nan, None
-
-    if number <= 0:
+    
+    # Ignore negative or zero values
+    if num <= 0:
         return np.nan, None
-
-    return number, qualifier
+        
+    return num, sign
