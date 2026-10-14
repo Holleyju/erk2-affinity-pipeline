@@ -1,0 +1,10 @@
+name: erk2-pipeline
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas=3.0
+  - numpy
+  - rdkit=2026.03
+  - jupyter
+  - pytest
