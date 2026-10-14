@@ -1,28 +1,24 @@
-"""Feature engineering helpers for the ERK2 binding-affinity pipeline."""
+"""Clean BindingDB affinity values for analysis"""
 
 import numpy as np
 import pandas as pd
 
-
 def clean_affinity(value):
-    """Convert a raw BindingDB affinity entry to a float in nM.
-
-    Handles strings like "4.2", ">10000", "<0.5", " 12 " and blanks.
-    Returns (number, qualifier), where qualifier is "=", ">" or "<".
-    Returns (np.nan, None) if the value cannot be interpreted.
+    """Convert affinity values to numbers and keep any inequality signs.
     """
     if pd.isna(value):
         return np.nan, None
 
     text = str(value).strip()
-    if text == "":
+    if not text:
         return np.nan, None
 
     qualifier = "="
-    if text[0] in (">", "<"):
+    if text.startswith((">", "<")):
         qualifier = text[0]
         text = text[1:].strip()
 
+    # Assumes "," is a thousands separator (BindingDB uses "." for decimals).
     text = text.replace (",","")
 
     try:
