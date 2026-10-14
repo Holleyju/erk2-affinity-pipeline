@@ -23,6 +23,8 @@ def clean_affinity(value):
         qualifier = text[0]
         text = text[1:].strip()
 
+    text = text.replace (",","")
+
     try:
         number = float(text)
     except ValueError:
