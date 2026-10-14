@@ -1,0 +1,11 @@
+molecule_id,smiles,affinity_nM,affinity_type
+mol_01,CC(=O)Oc1ccccc1C(=O)O,4.2,Ki
+mol_02,CN1C=NC2=C1C(=O)N(C(=O)N2C)C,">10000",Ki
+mol_03,CC(C)Cc1ccc(cc1)C(C)C(=O)O," 12 ",Kd
+mol_04,c1ccccc1,"1,500",Ki
+mol_05,CCO,<0.5,Kd
+mol_06,CC(=O)Nc1ccc(O)cc1,,Ki
+mol_07,NOT_A_SMILES,25,Ki
+mol_08,c1ccc2c(c1)cccc2,abc,Kd
+mol_09,CCN(CC)CC,-3,Ki
+mol_10,OC(=O)c1ccccc1O,87.5,Kd
