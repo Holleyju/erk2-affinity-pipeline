@@ -15,10 +15,13 @@ here is real ERK2 data yet.
 
 | File | What it is |
 |---|---|
-| `erk2_features.py` | The three pipeline functions |
+| `erk2_pipeline/functions.py` | The three pipeline functions |
+| `erk2_pipeline/__init__.py` | Marks `erk2_pipeline` as a Python package |
+| `erk2_pipeline/config.py` | Empty for now, a place for settings later |
+| `setup.py` | Lets you install the package with `pip install -e .` |
 | `environment.yml` | Conda env: Python 3.11, pandas, numpy, RDKit, Jupyter, pytest |
 | `data/test_molecules.csv` | 10 fake-ish rows with messy values on purpose |
-| `test_notebook.ipynb` | Notebook where I poke at each function |
+| `notebook/test_notebook.ipynb` | Notebook where I poke at each function |
 
 ## Setup
 
@@ -27,9 +30,13 @@ git clone https://github.com/Holleyju/erk2-affinity-pipeline.git
 cd erk2-affinity-pipeline
 conda env create -f environment.yml
 conda activate erk2-pipeline
+pip install -e .
 ```
 
-Then open `test_notebook.ipynb`, pick the `erk2-pipeline` kernel, and Run All.
+`pip install -e .` installs `erk2_pipeline` as a package, so you can import it
+from any folder. The `-e` means changes to the code take effect without reinstalling.
+
+Then open `notebook/test_notebook.ipynb`, pick the `erk2-pipeline` kernel, and Run All.
 
 ## The functions
 
@@ -53,11 +60,14 @@ pKi = 9 - log10(Ki in nM). Higher means tighter binding.
 
 ```python
 import pandas as pd
-from erk2_features import build_feature_table
+from erk2_pipeline.functions import build_feature_table
 
 raw = pd.read_csv("data/test_molecules.csv", dtype={"affinity_nM": str})
 features = build_feature_table(raw)
 ```
+
+Run this from the repo folder. From inside `notebook/`, use
+`"../data/test_molecules.csv"` instead.
 
 On the toy data this should print 10 rows in, 6 rows out (4 with `exact_only=True`).
 
