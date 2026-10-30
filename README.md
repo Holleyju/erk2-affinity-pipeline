@@ -15,7 +15,7 @@ here is real ERK2 data yet.
 
 | File | What it is |
 |---|---|
-| `erk2_features.py` | The three pipeline functions |
+| `erk2_pipeline/` | Python package: `affinity.py` (clean_affinity), `descriptors.py (compute_descriptors), `features.py` (build_feature_table) |
 | `environment.yml` | Conda env: Python 3.11, pandas, numpy, RDKit, Jupyter, pytest |
 | `data/test_molecules.csv` | 10 fake-ish rows with messy values on purpose |
 | `test_notebook.ipynb` | Notebook where I poke at each function |
