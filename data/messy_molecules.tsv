@@ -1,0 +1,176 @@
+molecule_id	smiles	affinity_nM	affinity_type	target_name	organism	source
+msy_001	Nc1cc(ccn1)c1ccc(F)cc1	64.6	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_002	Cc1ccc(cc1)C(=O)NCC(C)C	1,2,3x	Kd	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_003	N(C)Cc1ccc(cc1)Nc1nccc(n1)C#N	n/a	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_004	Nc1cc(ccn1)c1ccc(Cl)cc1	-3	Kd	Mitogen-activated protein kinase 14/1	Homo sapiens	BindingDB
+msy_005	Oc1ccc(cc1)S(=O)(=O)NC1CC1	.	Kd	Mitogen-activated protein kinase 1 [8-360]	Homo sapiens	PubChem
+msy_006	N(C)Cc1ccc(cc1)C(=O)NC1CC1	357.4	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_007	Nc1ccc(cc1)S(=O)(=O)N	 >3.4e+04 	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_008	OCc1ccc(cc1)C(=O)N	4.83	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_009	OCc1cc(ccn1)c1ccc(F)cc1	<1.16	Ki	Mitogen-activated protein kinase 1/3	Homo sapiens	BindingDB
+msy_010	Fc1ccc2[nH]c(C)nc2c1	77,526	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_011	C1CC1c1ccc(cc1)S(=O)(=O)N	3.4	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_012	Brc1ccc(cc1)C(=O)NCC	<0.515	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_013	OCc1ccc(cc1)C(=O)NCC(C)C	2.81e+04	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_014	Fc1cc(ccn1)c1ccc(C)cc1	4.102e+00	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_015	CCc1ccc(cc1)S(=O)(=O)NCC(C)C	 >3.2e+04 	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_016	Nc1ccc(cc1)Nc1nccc(n1)N	0.43	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_017	OCc1ccc(cc1)C(=O)NC	276.5	Ki	Mitogen-activated protein kinase 14/1	Homo sapiens	ChEMBL
+msy_018	Cc1cc(ccn1)c1ccc(C)cc1	ND	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_019	Brc1ccc(cc1)S(=O)(=O)Nc1ccccc1	9609.90	Kd	Mitogen-activated protein kinase 14/1	Homo sapiens	BindingDB
+msy_020	Cc1cc(ccn1)c1ccc(CCO)cc1	20.2	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_021	Nc1ccc2[nH]c(Cl)nc2c1	2.745e-01	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_022	OCCc1ccc2[nH]c(OC)nc2c1	34.9	IC50	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_023	Brc1nc2ccccc2n1CCC	0.42	Ki	Mitogen-activated protein kinase 14/1	Homo sapiens	BindingDB
+msy_024	Brc1ccc2[nH]c(N)nc2c1	5.38	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_025	Cc1nc2ccccc2n1CCO	89.5	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_026	c1nc2ccccc2n1CCN	94,147	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_027	Nc1ccc2[nH]c(Cl)nc2c1	33.9	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_028	C(=O)Oc1ccc(cc1)C(=O)N	2.692e+00	Ki	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_029	Brc1ccc(cc1)C(=O)N	1.13e+04	Ki	Mitogen-activated protein kinase 1 [8-360]	Homo sapiens	BindingDB
+msy_030	Nc1cc(ccn1)c1ccc(N)cc1	7,298	Kd	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_031	OCc1ccc(cc1)Nc1nccc(n1)CCO	23.6	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_032	Clc1ccc(cc1)Nc1nccc(n1)C#N	5.85	IC50	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_033	C(=O)Oc1ccc(cc1)Nc1nccc(n1)C1CC1	3485.70	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_034		3.202e-01	Ki	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_035	Clc1ccc(cc1)S(=O)(=O)NCC	98.7	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_036	Fc1ccc(cc1)Nc1nccc(n1)C(=O)O	215	Ki	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_037	c1nc2ccccc2n1CCOC	> 1.05e+04	Kd	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_038	Oc1cc(ccn1)c1ccc(C)cc1	1.5	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_039	OCCc1ccc(cc1)S(=O)(=O)NCCO	-3	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_040	N(C)Cc1ccc(cc1)S(=O)(=O)NCC(C)C	5.366e+02	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_041	Oc1cc(ccn1)c1ccc(F)cc1	10.6	Ki	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_042	OCc1ccc(cc1)C(=O)NCC	61.99	IC50	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_043	c1ccc2ccccc2cc1c1	4.3	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_044	Cc1ccc(cc1)C(=O)NC1CC1	11084.12	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_045	OCCc1nc2ccccc2n1CCC#N	1898.71	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_046	Nc1ccc(cc1)C(=O)NC1CC1	NA	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_047	C1CC1c1ccc(cc1)Nc1nccc(n1)Cl	0.9	IC50	Mitogen-activated protein kinase 1	Rattus norvegicus	PubChem
+msy_048	Fc1nc2ccccc2n1CCC(=O)O	1.48e+04	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_049	Clc1cc(ccn1)c1ccc(Cl)cc1	11,569	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_050	OCc1ccc(cc1)Nc1nccc(n1)OC	4.05e+03	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_051	Oc1ccc(cc1)S(=O)(=O)NCC	 >2e+04 	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_052	OCCc1ccc(cc1)Nc1nccc(n1)C1CC1	1.404e+00	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_053	Nc1ccc(cc1)Nc1nccc(n1)C	22,468	Kd	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_054	Clc1ccc(cc1)S(=O)(=O)NCC	440.1	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_055	OCCc1ccc(cc1)C(=O)NCCO	28279.4	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_056	Brc1ccc2[nH]c(Cl)nc2c1	2.916e+00	IC50	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_057	Cc1cc(ccn1)c1ccc(Cl)cc1	235.7	IC50	Mitogen-activated protein kinase 1 [8-360]	Homo sapiens	BindingDB
+msy_058	  Cc1ccc2[nH]c(Br)nc2c1 	1.164e+00	Ki	Mitogen-activated protein kinase 1	Mus musculus	PubChem
+msy_059	CCc1ccc(cc1)Nc1nccc(n1)OC	30402.2	IC50	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_060	Nc1ccc2[nH]c(C(F)(F)F)nc2c1	25,155	Kd	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_061	c1ccccc	4509.08	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_062	c1ccc2ccccc2cc1c1	46.5	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_063	N(C)Cc1ccc(cc1)C(=O)NCCC	3.725e+01	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_064	  N(C)Cc1ccc(cc1)C(=O)NC 	9.96e+03	Ki	Mitogen-activated protein kinase 1	Mus musculus	BindingDB
+msy_065	Fc1ccc(cc1)S(=O)(=O)NC1CC1	44,355	Ki	Mitogen-activated protein kinase 14/1	Homo sapiens	ChEMBL
+msy_066	CCc1ccc(cc1)S(=O)(=O)NC1CC1	0.458	Ki	Mitogen-activated protein kinase 1	Rattus norvegicus	ChEMBL
+msy_067	OCCc1cc(ccn1)c1ccc(F)cc1	 >8.7e+03 	Ki	Mitogen-activated protein kinase 1	Mus musculus	BindingDB
+msy_068	Clc1ccc(cc1)S(=O)(=O)NCC	6.528e+03	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_069	OCCc1ccc(cc1)C(=O)NCCC	4.911e+04	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_070	OCc1nc2ccccc2n1CC	>7.92e+04	Ki	Mitogen-activated protein kinase 1	Mus musculus	BindingDB
+msy_071	Cc1cc(ccn1)c1ccc(F)cc1	6131.01	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_072	Clc1cc(ccn1)c1ccc(N)cc1	3.086e+04	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_073	OCc1cc(ccn1)c1ccc(N)cc1	>9.09e+04	Kd	Mitogen-activated protein kinase 1 [8-360]	Homo sapiens	BindingDB
+msy_074	Fc1cc(ccn1)c1ccc(F)cc1	132.5	Ki	Mitogen-activated protein kinase 14/1	Homo sapiens	BindingDB
+msy_075	C1CC1c1cc(ccn1)c1ccc(C)cc1	3796.98	Kd	Mitogen-activated protein kinase 1 [8-360]	Homo sapiens	BindingDB
+msy_076	Nc1ccc2[nH]c(CCO)nc2c1	1.135e+02	IC50	Mitogen-activated protein kinase 1/3	Homo sapiens	ChEMBL
+msy_077	Brc1ccc(cc1)S(=O)(=O)NCCO	 >5.5e+04 	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_078	Nc1ccc(cc1)Nc1nccc(n1)OC	>=100	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_079	Nc1ccc(cc1)Nc1nccc(n1)Cl	83,108	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_080	C1CC1c1cc(ccn1)c1ccc(OC)cc1	205.6	Ki	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_081	C(=O)Oc1ccc(cc1)Nc1nccc(n1)C#N	0.4	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_082	Brc1cc(ccn1)c1ccc(N)cc1	7298.21	Kd	Mitogen-activated protein kinase 14/1	Homo sapiens	BindingDB
+msy_083	Nc1ccc(cc1)S(=O)(=O)NC1CC1	5.27	Kd	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_084	Nc1ccc(cc1)C(=O)NCC	<0.305	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_085	Brc1ccc(cc1)C(=O)Nc1ccccc1	4.429e+01	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_086	OCCc1cc(ccn1)c1ccc(C)cc1	n/a	Kd	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_087	c1ccc(cc1)Nc1nccc(n1)C(=O)O	91,316	Ki	Mitogen-activated protein kinase 1	Rattus norvegicus	BindingDB
+msy_088	OCCc1ccc(cc1)S(=O)(=O)NCC(C)C	2.56e+03	Ki	Mitogen-activated protein kinase 1	Mus musculus	ChEMBL
+msy_089	Brc1ccc(cc1)Nc1nccc(n1)C(=O)O	0.379	Ki	Mitogen-activated protein kinase 1	Mus musculus	BindingDB
+msy_090	Clc1nc2ccccc2n1CCC#N	221	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_091	Cc1ccc(cc1)C(=O)NCCN(C)C	4.548e+04	Ki	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_092	Clc1ccc(cc1)Nc1nccc(n1)	457.6	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_093	Oc1cc(ccn1)c1ccc(N)cc1	8.337e+03	Kd	Mitogen-activated protein kinase 1 [8-360]	Homo sapiens	BindingDB
+msy_094	  Brc1ccc(cc1)C(=O)NCCN(C)C 	2.587e+01	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_095	  OCCc1ccc(cc1)C(=O)NCC 	0.483	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_096	C1CC1c1ccc2[nH]c(Br)nc2c1	12	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_097	C1CC1c1ccc(cc1)Nc1nccc(n1)C(=O)O	7.1	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_098	Cc1nc2ccccc2n1CCC	8.677e+00	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_099	Fc1ccc(cc1)C(=O)Nc1ccccc1	627.8	Kd	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_100	C(=O)Oc1nc2ccccc2n1CC	 >2e+04 	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_101	Clc1nc2ccccc2n1CCN	1933.3	IC50	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_102	c1ccc2[nH]c(CC)nc2c1	> 5.32e+04	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_103	Cc1ccc(cc1)S(=O)(=O)NC1CC1	8.47	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_104	Oc1ccc(cc1)C(=O)NCCO	44,524	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_105	Nc1cc(ccn1)c1ccc(O)cc1	1.582e+00	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_106	  Nc1cc(ccn1)c1ccc(OC)cc1 	1.34e+03	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_107	Brc1nc2ccccc2n1CCO	4640.47	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_108	N(C)Cc1ccc(cc1)Nc1nccc(n1)C#N	n/a	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_109	Nc1ccc(cc1)Nc1nccc(n1)C(F)(F)F	see text	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_110	Oc1ccc(cc1)Nc1nccc(n1)C(F)(F)F	4.174e+03	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_111	OCCc1ccc2[nH]c(N)nc2c1	43.2	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_112	CCc1nc2ccccc2n1CCC#N	388	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_113	Oc1cc(ccn1)c1ccc(Cl)cc1	11.22	Kd	Mitogen-activated protein kinase 1	Rattus norvegicus	ChEMBL
+msy_114	OCCc1ccc2[nH]c(CC)nc2c1	 >8.1e+04 	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_115	N(C)Cc1ccc(cc1)S(=O)(=O)NCC(C)C	5.366e+02	Ki	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_116	CCc1nc2ccccc2n1CC	3503.5	Kd	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_117	Nc1ccc2[nH]c(Cl)nc2c1	2.053e+01	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_118	Cc1ccc2[nH]c(C(F)(F)F)nc2c1	19869.8	Kd	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_119	N(C)Cc1cc(ccn1)c1ccc(CCO)cc1	15.14	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_120	C(=O)Oc1cc(ccn1)c1ccc(C#N)cc1	50.8	Ki	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_121	  N(C)Cc1nc2ccccc2n1CCC 	2.213e+01	Kd	Mitogen-activated protein kinase 1/3	Homo sapiens	ChEMBL
+msy_122	Nc1ccc2[nH]c(CCO)nc2c1	1.135e+02	IC50	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_123	Hello	14.12	Ki	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_124	Brc1nc2ccccc2n1CCO	1.3	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_125	N(C)Cc1ccc(cc1)Nc1nccc(n1)OC	5.22	Ki	Mitogen-activated protein kinase 1 [8-360]	Homo sapiens	PubChem
+msy_126	Fc1ccc(cc1)Nc1nccc(n1)Cl	2.191e+04	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_127	c1ccc2[nH]c(Cl)nc2c1	1381.5	IC50	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_128	C(=O)Oc1ccc(cc1)C(=O)NCCN(C)C	1.71	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_129	C(=O)Oc1ccc2[nH]c(CC)nc2c1	94914.2	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_130	Fc1ccc(cc1)C(=O)Nc1ccccc1	82725.9	Kd	Mitogen-activated protein kinase 1/3	Homo sapiens	PubChem
+msy_131	Brc1nc2ccccc2n1CCO	98.4	Kd	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_132	Clc1nc2ccccc2n1CCC#N	1.2	Kd	Mitogen-activated protein kinase 1	Rattus norvegicus	ChEMBL
+msy_133	c1ccc(cc1)Nc1nccc(n1)CCO	8.71e+04	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_134	N(C)Cc1cc(ccn1)c1ccc(F)cc1	1.11	Ki	Mitogen-activated protein kinase 1	Mus musculus	PubChem
+msy_135	  Oc1ccc(cc1)S(=O)(=O)NCC(C)C 	4374.6	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_136	CC(=O	1.324e+01	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_137	Clc1cc(ccn1)c1ccc(C#N)cc1	102.1	Ki	Mitogen-activated protein kinase 14/1	Homo sapiens	ChEMBL
+msy_138	Oc1ccc(cc1)C(=O)N	76621.2	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_139	Oc1cc(ccn1)c1ccc(F)cc1	37.6	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_140	C1CC	2.19e+04	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_141	Hello	3.1	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_142	Cc1cc(ccn1)c1ccc(O)cc1	ND	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_143	N(C)Cc1nc2ccccc2n1CCC#N	85,489	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_144	OCCc1ccc(cc1)Nc1nccc(n1)C(=O)O	1.625e+03	Kd	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_145	  Cc1ccc(cc1)S(=O)(=O)N 	1375.00	Ki	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_146	Nc1ccc(cc1)S(=O)(=O)NCC	12 +/- 3	Ki	Mitogen-activated protein kinase 1 [8-360]	Homo sapiens	BindingDB
+msy_147	c1ccccc	32.3	Ki	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_148	Brc1ccc(cc1)S(=O)(=O)N	11.22	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_149	  OCCc1ccc(cc1)Nc1nccc(n1)Cl 	4.14	Kd	Mitogen-activated protein kinase 14/1	Homo sapiens	ChEMBL
+msy_150	Nc1ccc(cc1)C(=O)Nc1ccccc1	15,386	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_151	Fc1cc(ccn1)c1ccc(C(F)(F)F)cc1	2.4	Kd	Mitogen-activated protein kinase 14/1	Mus musculus	BindingDB
+msy_152	Fc1ccc(cc1)C(=O)Nc1ccccc1	56.8	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_153	OCc1ccc2[nH]c(CC)nc2c1	1,2,3x	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_154	CCc1ccc(cc1)S(=O)(=O)NC	 >1.7e+04 	Ki	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_155	Fc1cc(ccn1)c1ccc(C)cc1	3226.5	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_156	Nc1ccc(cc1)C(=O)NC	24.5	IC50	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_157	OCCc1ccc(cc1)S(=O)(=O)NC1CC1	>9.41e+03	Ki	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_158	c1ccc2[nH]c(OC)nc2c1	4.49e+04	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_159	NOT_A_SMILES	966.55	Kd	Mitogen-activated protein kinase 1	Rattus norvegicus	BindingDB
+msy_160	OCCc1ccc(cc1)Nc1nccc(n1)C#N	0.444	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_161	Clc1nc2ccccc2n1CCC#N	8.768e+04	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_162	N(C)Cc1ccc(cc1)S(=O)(=O)Nc1ccccc1	54,240	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_163	Hello	9.28e+03	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_164	C(=O)Oc1ccc(cc1)Nc1nccc(n1)C#N	2.3	Ki	Mitogen-activated protein kinase 1/3	Homo sapiens	PubChem
+msy_165	N(C)Cc1ccc2[nH]c(Br)nc2c1	28,029	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_166	c1ccc(cc1)Nc1nccc(n1)OC	1.878e+03	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_167	c1cc(ccn1)c1ccc(C#N)cc1	297	Ki	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_168	C(=O)Oc1ccc(cc1)Nc1nccc(n1)C#N	23505.11	Ki	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_169	Brc1ccc(cc1)Nc1nccc(n1)C	0.26	Ki	Mitogen-activated protein kinase 1 [8-360]	Homo sapiens	ChEMBL
+msy_170	Nc1cc(ccn1)c1ccc(C#N)cc1	8.76	Kd	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_171	OCc1ccc(cc1)S(=O)(=O)Nc1ccccc1	< 0.55	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
+msy_172	c1ccc2[nH]c(N)nc2c1	< 0.179	Kd	Mitogen-activated protein kinase 1	Homo sapiens	ChEMBL
+msy_173	CCc1ccc(cc1)Nc1nccc(n1)N	-	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_174	Nc1ccc(cc1)Nc1nccc(n1)C#N	2.320e-01	Kd	Mitogen-activated protein kinase 1	Homo sapiens	BindingDB
+msy_175	Cc1ccc(cc1)Nc1nccc(n1)N	24.6	Kd	Mitogen-activated protein kinase 1	Homo sapiens	PubChem
